@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/stylesCssPuro.css">
+    <title>To - Do List for {SunDevs}</title>
+    <link rel="icon" href="./assets/img/logo.png">
+</head>
+<body>
+    <div class="container">
+        <!-- titulo proyecto de listas  -->
+        <div class="headP">
+            <h2>Lista de cosas por hacer : </h2>
+        </div>
+        <form id="form-crear" class="formulario">
+            <div class="form-control">
+                <input type="text" id="crear" class="form-control" placeholder="ingrese actividad o tarea pendiente" autofocus required>
+                <button> 
+                    <i class="fa-solid fa-square-plus"></i>
+                </button> 
+            </div>
+        </form>
+        <section>
+            <form>
+                <input type="text" id="buscar" placeholder="Buscar...">
+                <div class="nota">
+                    <h5>
+                        -Nota* : Cada vez que cumpla una tarea o actividad,
+                            <ul> dar click en el boton eliminar para dar como hecha,</ul>
+                            <ul> la actividad o tarea pendiente.</ul>
+                    </h5>
+                </div>
+            </form>
+            <div class="headP">tareas o actividades pedientes</div>
+            <ul id="lista-Pendientes" class="list-group">
+
+                <!-- aca van la lista de tareas -->
+                
+            </ul>
+        </section>
+    </div>
+    <div class="creador">
+        <table>Creado por: Juan carlos Rada</table>
+    </div>
+
+    <script src="./assets/js/to-do.js"></script>
+</body>
+</html>
